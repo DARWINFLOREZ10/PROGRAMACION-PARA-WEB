@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La cafeteria magica</title>
+</head>
+
+<body>
+    <script>
+
+let nombre = prompt("Dime tu nombre");
+if (!nombre){
+    nombre = "Mi mejor cliente";
+}
+
+console.log(`Hola ${nombre}, bienvenido a la cafeteria Magica`);
+
+let precio1= parseFloat(prompt("precio 1"));
+let precio2= parseFloat(prompt("precio 2"));
+
+function calculadora(p1, p2) {
+  return p1 + p2
+}
+
+let total = calculadora(precio1, precio2);
+console.log(`el valor es: $${total}`)
+
+</script>
+</body>
+
+</html>
